@@ -1,4 +1,4 @@
-alert("<p>Your Session will expire soon Login to continue.</p>");
+alert("Your Session will expire soon Login to continue.");
 var usr= prompt("Please Enter Usename: ");
 var pass= prompt("Please Enter Password: ");
 
