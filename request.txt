@@ -1,0 +1,46 @@
+POST /forum/admin.php?login/login HTTP/1.1
+Host: nl.hardware.info
+Connection: close
+Content-Length: 839
+Sec-Fetch-Mode: cors
+Origin: https://nl.hardware.info
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+DNT: 1
+Sec-Fetch-Site: same-origin
+Referer: https://nl.hardware.info/forum/admin.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en,en-US;q=0.9
+Cookie: cookiebar=1; _ga=GA1.2.1815497532.1572452486; _gid=GA1.2.1952032369.1572452486; __gads=ID=5f54598f2cf98b17:T=1572452487:S=ALNI_MZmLlqVgfsJJFm4VFGlZWYR4i5wsw; lastConsentChange=1572452497418; client_locale=nl_NL; xf_user=151931%2CdgcUoZJILcq7RqSCbr5cX2LT0q1dtvi8Nv795Nqg; xf_session=U_ij__AJshGVGRfUc2iCvcajLWvVYfz-; PHPSESSID=0439e617be91002174131a5985afdfd9; xf_csrf=x9WMe-5XG47sYbx0
+
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="login"
+
+admin
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="password"
+
+aadmin
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="_xfToken"
+
+1572537005,21d4c3ef4d8bc73320ad82280f26809e
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="_xfRequestUri"
+
+/forum/admin.php
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="_xfWithData"
+
+1
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="_xfToken"
+
+1572537005,21d4c3ef4d8bc73320ad82280f26809e
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6
+Content-Disposition: form-data; name="_xfResponseType"
+
+json
+------WebKitFormBoundaryBbz0UuCDeuXV72Z6--
