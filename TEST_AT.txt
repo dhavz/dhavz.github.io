@@ -1,0 +1,26 @@
+Test Cases:
+
+1. Auth:  OAUTH-2 , SAML,  - 
+Attack: SAML Auth Bypass
+Attack: OAUTH-2
+Attack - Insufficient Role Based Acess
+
+XML Parsing Issues , Cryptographic Signing Issue
+
+2. Attack - JSON Bomb 
+
+3. IB Based Restriciton - IP(API) Abuse - ATTACK - IP Address Spoofing
+
+4. API KEy - 
+
+5. Regular Expression - 
+
+//6. Weak Encrption - TLS - 
+
+7. Rate Limiting - Bruteforce Attack
+
+8. Bad Logging - Config Review
+
+9. XML Poisoning - XXE
+ 
+10. 
