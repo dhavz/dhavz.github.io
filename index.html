@@ -2,6 +2,11 @@
   <head>
   </head>
   <body>
-    <script>alert('XSS')</script>
+    <script>var js = document.createElement("script");
+
+js.type = "text/javascript";
+js.src = "path_to_the_file.js";
+
+document.body.appendChild(js);</script>
   </body>
 </html>
