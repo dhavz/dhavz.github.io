@@ -2,12 +2,8 @@
   
 <body>
 
-<input type=text>
 <h1>test</h1>
-<xss id=x tabindex=1 onbeforeactivate=top.alert(1)></xss>
-  <input id=x tabindex=1 onactivate=top.alert(1)></input>
-  <input onblur=top.alert(1) id=x><input autofocus>
-  <input autofocus onfocusin=top.alert(1)><input type=image onloadend=top.alert(1) src=validimage.png><style>@keyframes x{}</style><input style="animation-name:x" onwebkitanimationstart="top.alert(1)"></input><input onauxclick=top.alert(1)>
+  <input autofocus onfocusin=window.top.alert(1)></br>Paretnt:   <input autofocus onfocusin=window.parent.alert(1)>
 </body>
   
 </html>
