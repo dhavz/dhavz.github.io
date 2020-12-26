@@ -4,7 +4,9 @@
 
 <input type=text>
 <h1>test</h1>
-<video oncanplaythrough=alert(1)><source src="validvideo.mp4" type="video/mp4"></video>
+<xss id=x tabindex=1 onbeforeactivate=alert(1)></xss>
+  <input id=x tabindex=1 onactivate=alert(1)></input>
+  <input onblur=alert(1) id=x><input autofocus>
 </body>
   
 </html>
