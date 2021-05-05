@@ -1,9 +1,8 @@
 <html>
  <body>
   <script>
-   if (window.opener) {
-      window.opener.location = "https://evil.com";
-   }
+   alert(document.domain);
+   alert('xss');
   </script>
  </body>
 </html>
